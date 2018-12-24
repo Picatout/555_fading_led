@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:555_fading_led-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,15 +37,15 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 7375 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D1
+L device:LED D2
 U 1 1 5C20033B
-P 5675 2375
-F 0 "D1" V 5620 2453 50  0000 L CNN
-F 1 "LED" V 5711 2453 50  0000 L CNN
-F 2 "R" H 5675 2375 50  0001 C CNN
-F 3 "" H 5675 2375 50  0001 C CNN
-	1    5675 2375
-	0    1    1    0   
+P 6625 2375
+F 0 "D2" V 6570 2453 50  0000 L CNN
+F 1 "LED" V 6661 2453 50  0000 L CNN
+F 2 "R" H 6625 2375 50  0001 C CNN
+F 3 "" H 6625 2375 50  0001 C CNN
+	1    6625 2375
+	-1   0    0    1   
 $EndComp
 $Comp
 L device:R R1
@@ -61,10 +62,6 @@ Wire Wire Line
 	5150 3300 5675 3300
 Wire Wire Line
 	5675 3300 5675 2825
-Wire Wire Line
-	5675 2225 7450 2225
-Wire Wire Line
-	7450 2225 7450 3300
 Wire Wire Line
 	7450 3300 7225 3300
 $Comp
@@ -326,4 +323,33 @@ F 3 "" H 3125 3175 50  0001 C CNN
 	1    3125 3175
 	1    0    0    -1  
 $EndComp
+$Comp
+L device:LED D1
+U 1 1 5C205CEF
+P 6625 2075
+F 0 "D1" V 6570 2153 50  0000 L CNN
+F 1 "LED" V 6661 2153 50  0000 L CNN
+F 2 "R" H 6625 2075 50  0001 C CNN
+F 3 "" H 6625 2075 50  0001 C CNN
+	1    6625 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5675 2525 5675 2375
+Wire Wire Line
+	5675 2375 6475 2375
+Wire Wire Line
+	6475 2075 5675 2075
+Wire Wire Line
+	5675 2075 5675 2375
+Connection ~ 5675 2375
+Wire Wire Line
+	6775 2375 7450 2375
+Connection ~ 7450 2375
+Wire Wire Line
+	7450 2375 7450 3300
+Wire Wire Line
+	7450 2075 6775 2075
+Wire Wire Line
+	7450 2075 7450 2375
 $EndSCHEMATC
