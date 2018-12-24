@@ -14,4 +14,5 @@ where
 
 ![555 fading LED](555_fading.png)
 
+The two LEDs are in anti-phase, meaning when one is at maximum brigthness the other is at minimum.
 
