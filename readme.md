@@ -16,3 +16,22 @@ where
 
 The two LEDs are in anti-phase, meaning when one is at maximum brigthness the other is at minimum.
 
+sculpture
+---------
+
+Made a sculpture on a microscope slide.
+
+![photo 1](assembly_2.png)
+
+![photo 2](assembly_3.png)
+
+![photo 3](assembly_4.png)
+
+![photo 4](assembly_5.png)
+
+link
+-----
+
+[video](https://youtu.be/me4tGUi5gXE)
+
+
